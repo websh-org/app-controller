@@ -1,0 +1,30 @@
+{
+  "name": "@websh/app-controller",
+  "version": "0.1.0",
+  "description": "Client library for WebShell apps",
+  "module": "app-controller.mjs",
+  "scripts": {
+    "build": "parcel build app-controller.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websh-org/app-controller.git"
+  },
+  "keywords": [
+    "websh",
+    "webshell",
+    "message",
+    "channel",
+    "slave",
+    "port"
+  ],
+  "author": "Zoran Obradović",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/websh-org/app-controller/issues"
+  },
+  "homepage": "https://github.com/websh-org/app-controller#readme",
+  "dependencies": {
+    "@websh/remote-master-port": "^0.1.0"
+  }
+}
